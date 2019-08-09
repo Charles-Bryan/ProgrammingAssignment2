@@ -5,7 +5,7 @@
         # set, get, setinverse, getinverse
 
 makeCacheMatrix <- function(x = matrix()) {
-        inv <- NULL            # Sets mean to NULL by default when constructed
+        inv <- NULL            # Sets inv to NULL by default when constructed
         # Sets the new matrix to the provided one. Erases any stored inverse
         set <- function(y) { 
                 x <<- y
